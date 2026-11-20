@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shadow under the car -->
+    <path
+        android:fillColor="#40000000"
+        android:pathData="M26,76 C36,79 72,79 82,76 C85,78 23,78 26,76 Z" />
+
+    <!-- Tires -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M27,66 h8 v11 h-8 z M73,66 h8 v11 h-8 z" />
+
+    <!-- Car Body Silhouette / Base Layer -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M38,34 C42,33 66,33 70,34 L76,46 C81,46 83,48 83,50 L82,53 C83,54 83,72 80,73 L78,74 L30,74 L28,73 C25,72 25,54 26,53 L25,50 C25,48 27,46 32,46 Z" />
+
+    <!-- Side Mirrors -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M25,48 L20,49 C19,49 19,51 21,52 L26,52 Z M83,48 L88,49 C89,49 89,51 87,52 L82,52 Z" />
+
+    <!-- Windshield -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M39,36 L69,36 L74,47 L34,47 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M40,37 L68,37 L72,46 L36,46 Z" />
+
+    <!-- Dashcam Camera on Windshield -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M51,37 h6 v5 h-6 z" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M54,39.5 m-1,0 a1,1 0 1,1 2,0 a1,1 0 1,1 -2,0" />
+
+    <!-- Hood Line & Contours -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M34,48 L74,48 L76,57 L32,57 Z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M44,48 L64,48 L62,56 L46,56 Z" />
+
+    <!-- Headlights (Cyan/White Glow) -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M29,58 L42,58 L41,63 L30,63 Z M66,58 L79,58 L78,63 L67,63 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M30,59 L41,59 L40,62 L31,62 Z M67,59 L78,59 L77,62 L68,62 Z" />
+
+    <!-- Front Grille & Bumper -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M42,61 L66,61 L64,69 L44,69 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M45,63 h18 v1 h-18 z M46,65 h16 v1 h-16 z M47,67 h14 v1 h-14 z" />
+
+    <!-- Lower Bumper & License Plate / Accent -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M29,69 L79,69 L77,73 L31,73 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M48,70 h12 v2 h-12 z" />
+</vector>
